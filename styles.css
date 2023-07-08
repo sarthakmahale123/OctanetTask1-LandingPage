@@ -1,0 +1,673 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header {
+  background-color: black;
+  width: 100%;
+  height: 30rem;
+  position: relative;
+}
+.headerlogo {
+  position: absolute;
+  top: 5rem;
+  right: 45vw;
+}
+.searchlogo {
+  position: absolute;
+  top: 10rem;
+  left: 5rem;
+}
+.userlogo {
+  position: absolute;
+  top: 10rem;
+  right: 15rem;
+}
+.cartlogo {
+  position: absolute;
+  top: 10rem;
+  right: 8rem;
+}
+.navbar {
+  color: white;
+  position: absolute;
+  top: 15rem;
+  left: 20rem;
+}
+.navul {
+  display: flex;
+  padding: 2.5rem;
+  list-style: none;
+  left: 25rem;
+}
+.navul > li {
+  padding: 4rem;
+  cursor: pointer;
+  display: block;
+  margin-bottom: 10rem;
+  margin-left: -5rem;
+  font-size: 2.5rem;
+}
+
+/* INTRO-SECTION */
+.introsection {
+  width: 100%;
+  height: 60rem;
+  background-image: url("pexels-simona-kidrič-2607544.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+}
+.introhead {
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 4rem;
+  /* margin-top: 10rem;*/
+  padding-top: 5rem;
+  font-weight: 800;
+}
+.intropara {
+  font-family: Roboto;
+  text-align: center;
+  font-size: 3.5rem;
+  margin-right: 6rem;
+  margin-left: 6rem;
+  margin-top: 4rem;
+  font-weight: 600;
+}
+/* CSS */
+.button-19 {
+  appearance: button;
+  background-color: #1899d6;
+  border: solid transparent;
+  border-radius: 16px;
+  border-width: 0 0 4px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: din-round, sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  line-height: 20px;
+  margin: 0;
+  outline: none;
+  overflow: visible;
+  padding: 13px 16px;
+  text-align: center;
+  text-transform: uppercase;
+  touch-action: manipulation;
+  transform: translateZ(0);
+  transition: filter 0.2s;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+  width: 20rem;
+  height: 5rem;
+  position: absolute;
+  right: 10rem;
+  bottom: 6rem;
+}
+
+.button-19:after {
+  background-clip: padding-box;
+  background-color: #1cb0f6;
+  border: solid transparent;
+  border-radius: 16px;
+  border-width: 0 0 4px;
+  bottom: -4px;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+
+.button-19:main,
+.button-19:focus {
+  user-select: auto;
+}
+
+.button-19:hover:not(:disabled) {
+  filter: brightness(1.1);
+  -webkit-filter: brightness(1.1);
+}
+
+.button-19:disabled {
+  cursor: auto;
+}
+
+.knowyourdogarticle {
+  width: 100%;
+  height: 130vh;
+  background-color: rgb(243, 238, 233);
+}
+.introarticle {
+  text-align: center;
+  padding-top: 3rem;
+  font-size: 4rem;
+  font-weight: 800;
+}
+.articleflex {
+  display: flex;
+  gap: 9rem;
+  margin-left: 60px;
+  margin-top: 10rem;
+  margin-right: 60px;
+}
+.articletitle {
+  text-align: center;
+  margin-top: 2rem;
+  display: block;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.article1info,
+.article2info,
+.article3info,
+.article4info {
+  display: flex;
+  flex-direction: column;
+}
+.articlepara {
+  font-size: 2.5rem;
+}
+.btn-article {
+  background: rgb(244, 178, 131);
+  color: black;
+  font-size: 28px;
+  border: 0px;
+  padding: 15px 34px;
+  font-weight: 600;
+  text-shadow: none;
+  text-align: center;
+  outline: none;
+  cursor: pointer;
+  border-radius: 69px;
+  transition: transform 0.2s cubic-bezier(0, 0.55, 0.45, 1);
+  line-height: 1.389;
+  will-change: transform;
+  backface-visibility: hidden;
+  width: 30rem;
+  height: 6rem;
+  margin-top: 2rem;
+}
+.btn-article:hover {
+  background-color: red;
+  transition: 0.5s ease-in-out;
+}
+.img1art {
+  margin-left: 2rem;
+}
+.videodog {
+  width: 100%;
+}
+.videoshop {
+  position: relative;
+}
+.videotitle {
+  position: absolute;
+  top: 30rem;
+  right: 15rem;
+  color: white;
+  font-weight: bold;
+  font-size: 7rem;
+  z-index: 100;
+}
+.videotitle1 {
+  position: absolute;
+  top: 42rem;
+  right: 35rem;
+  color: white;
+  font-size: 3.5rem;
+  z-index: 100;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.5
+  ); /* Adjust the alpha value to control the darkness */
+}
+.btn-3article {
+  margin-top: 5.5rem;
+}
+.order-button {
+  position: absolute;
+  left: 70rem;
+  top: 55rem;
+  width: 20rem;
+  height: 5rem;
+  background-color: transparent;
+  border: 4px solid white;
+  color: white;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.order-button:hover{
+  background-color: white;
+  color: black;
+  transition: 0.3s ease-in-out;
+}
+.products {
+  width: 100%;
+  height: 110rem;
+  background-color: rgb(250, 250, 248);
+  position: relative;
+}
+.producttitle {
+  font-size: 4rem;
+  text-align: center;
+  /* margin-top: 3rem; */
+  padding-top: 3rem;
+  font-weight: 800;
+  margin-bottom: 3rem;
+}
+.productimgs {
+  width: 25rem;
+}
+.prodname {
+  font-size: 2.5rem;
+  padding: 2rem;
+}
+.productgrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-left: 12rem;
+}
+.pricetag {
+  font-size: 2rem;
+  margin-left: 2rem;
+}
+.reviews {
+  margin-left: 2rem;
+}
+.productimg1 {
+  position: absolute;
+  width: 50rem;
+  bottom: 0;
+  left: 5rem;
+}
+.exploretitle {
+  position: absolute;
+  right: 3rem;
+  bottom: 20rem;
+  font-size: 4rem;
+}
+.btnorder {
+  position: absolute;
+  bottom: 10rem;
+  right: 35rem;
+}
+
+.foundertestimonial {
+  width: 100%;
+  height: 120rem;
+  display: flex;
+  gap: 30rem;
+  position: relative;
+}
+.foundtitle {
+  font-size: 3.5rem;
+  font-weight: 800;
+  margin-bottom: 2rem;
+}
+.foundpara1 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+.testimonial {
+  margin-left: 15rem;
+  margin-top: 5rem;
+}
+.btn-found {
+  appearance: button;
+  background-color: #1899d6;
+  border: solid transparent;
+  border-radius: 16px;
+  border-width: 0 0 4px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: din-round, sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  line-height: 20px;
+  margin: 0;
+  outline: none;
+  overflow: visible;
+  padding: 13px 16px;
+  text-align: center;
+  text-transform: uppercase;
+  touch-action: manipulation;
+  transform: translateZ(0);
+  transition: filter 0.2s;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+  width: 20rem;
+  height: 5rem;
+  position: absolute;
+  right: 25rem;
+  top: 100rem;
+}
+.btn-found:hover:not(:disabled) {
+  filter: brightness(1.1);
+  -webkit-filter: brightness(1.1);
+}
+.qrtitle {
+  font-size: 5rem;
+  font-weight: 800;
+  text-align: center;
+}
+.qualityreviews {
+  width: 100%;
+  height: 210rem;
+  margin-top: 5rem;
+}
+.qualifys {
+  display: grid;
+  grid-template-columns: 30rem 30rem;
+  row-gap: 4rem;
+  margin-left: 10rem;
+  margin-top: 20rem;
+  padding: 0;
+  column-gap: -1000rem;
+}
+.qualities {
+  width: 20rem;
+}
+.qualitytitle {
+  font-weight: 800;
+  font-size: 3rem;
+  /* margin-top: 35rem; */
+  margin-left: 10rem;
+}
+.qualityflex {
+  display: flex;
+}
+.qualitysub {
+  font-size: 2rem;
+}
+.qualitydogimg {
+  margin-left: 20rem;
+  margin-top: 12rem;
+}
+.custrevhead {
+  font-size: 3rem;
+  font-weight: 800;
+  margin-top: 10rem;
+  text-align: center;
+  color: rgb(17, 129, 232);
+}
+.videoreviewno1 {
+  width: 40rem;
+  margin-top: 5rem;
+  border-radius: 60px;
+}
+.videos {
+  display: flex;
+  gap: 10rem;
+  margin-left: 10rem;
+}
+.sect1 {
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 1.5rem;
+}
+.customerreviews {
+  position: relative;
+}
+.btreview {
+  bottom: 4rem;
+}
+.custreviewmore {
+  width: 10rem;
+  margin-left: 35rem;
+}
+.choosereview {
+  font-size: 3rem;
+  font-weight: 600;
+  margin-top: 10rem;
+  margin-left: 20rem;
+}
+.ourawards {
+  width: 100%;
+  height: 100rem;
+}
+.achievetitle {
+  font-size: 4rem;
+  font-weight: 800;
+  text-align: center;
+  margin-top: 3rem;
+}
+.achievflex {
+  display: flex;
+  gap: 15rem;
+  margin-left: 15rem;
+  margin-top: 10rem;
+}
+.achiveimg {
+  width: 50rem;
+}
+.achievementtitle {
+  font-size: 4rem;
+  font-weight: 800;
+  margin-left: -10rem;
+  margin-top: 3rem;
+  text-align: center;
+}
+.achievementsu {
+  font-size: 2.2rem;
+  margin-left: -10rem;
+  text-align: center;
+}
+.achievebtn {
+  background-color: #36b1fb;
+  display: inline-block;
+  padding: 11px 20px;
+  margin: 0;
+  width: auto;
+  min-width: 90px;
+  line-height: 1.42;
+  font-size: 16px;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+  white-space: normal;
+  cursor: pointer;
+  border: 1px solid transparent;
+  color: #1c1d1d;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: 3rem;
+  margin-left: 20rem;
+}
+
+.button-20 {
+  appearance: button;
+  background: #32acd7;
+  border: solid transparent;
+  border-radius: 45px;
+  border-width: 0 0 4px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: din-round, sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  line-height: 20px;
+  margin: 0;
+  outline: none;
+  overflow: visible;
+  padding: 13px 16px;
+  text-align: center;
+  text-transform: uppercase;
+  touch-action: manipulation;
+  transform: translateZ(0);
+  transition: filter 0.2s;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+  position: fixed;
+  width: 20rem;
+  height: 8rem;
+  top: 65rem;
+  left: 5rem;
+}
+.button-uparrow {
+  appearance: button;
+  background: white;
+  border: solid transparent;
+  border-radius: 100px;
+  border-width: 0 0 4px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: din-round, sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  line-height: 20px;
+  margin: 0;
+  outline: none;
+  overflow: visible;
+  padding: 13px 16px;
+  text-align: center;
+  text-transform: uppercase;
+  touch-action: manipulation;
+  transform: translateZ(0);
+  transition: filter 0.2s;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+  position: fixed;
+  width: 8rem;
+  height: 8rem;
+  top: 65rem;
+  right: 3rem;
+}
+html {
+  scroll-behavior: smooth;
+}
+.button-chat {
+  appearance: button;
+  background: rgb(27, 4, 48);
+  border: solid transparent;
+  border-radius: 20px;
+  border-width: 0 0 4px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: din-round, sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  line-height: 20px;
+  margin: 0;
+  outline: none;
+  overflow: visible;
+  padding: 13px 16px;
+  text-align: center;
+  text-transform: uppercase;
+  touch-action: manipulation;
+  transform: translateZ(0);
+  transition: filter 0.2s;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+  position: fixed;
+  width: 15rem;
+  height: 8rem;
+  top: 55rem;
+  left: 7rem;
+}
+.footer {
+  width: 100%;
+  height: 75rem;
+  background-color: black;
+  color: white;
+}
+.footers{
+  display: flex;
+  gap: 10rem;
+}
+.followus,
+.mainmenu,
+.footermenu,
+.signup {
+  font-size: 2.5rem;
+  letter-spacing: 1px;
+  margin-top: 10rem;
+}
+.mainmenu,
+.footermenu > ul {
+  font-size: 2rem;
+  list-style: none;
+}
+.followus {
+  margin-left: 10rem;
+}
+.mainmenu > ul > li {
+  margin-bottom: 2rem;
+}
+.footermenu > ul > li {
+  margin-bottom: 2rem;
+}
+.inputemail{
+  background-color: black;
+  border: 2px solid rgb(169, 164, 164);
+  width: 35rem;
+  height: 5rem;
+  color: white;
+}
+.inputemail::placeholder{
+  color: white;
+  padding: 1rem;
+}
+.signupbtn{
+  width: 15rem;
+  height: 5rem;
+  margin-left: 1rem;
+  font-weight: bold;
+}
+.signupbtn:hover{
+  background-color: black;
+  color: white;
+  border: 2px solid white;
+  transition: 0.2s ease-in-out;
+}
+.paymenticon{
+  width: 5rem;
+}
+.payment{
+  display: flex;
+  gap: 1rem;
+  margin-left: 65rem;
+  margin-top: 5rem;
+}
+ul li{
+  cursor: pointer;
+}
